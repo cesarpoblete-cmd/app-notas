@@ -77,5 +77,6 @@ graph TD
 4. Sube la rama: `git push origin mejora/mi-cambio` 
 5. Abre un Pull Request explicando que mejoraste. 
 ## Licencia 
-Este proyecto usa la licencia MIT. Revisa el archivo [LICENSE](LICENSE). ## Autor 
+Este proyecto usa la licencia MIT. Revisa el archivo [LICENSE](LICENSE). 
+## Autor 
 Hecho por **Cesar Poblete** - [GitHub](https://github.com/cesarpoblete-cmd)
