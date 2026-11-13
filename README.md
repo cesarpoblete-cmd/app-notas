@@ -55,11 +55,12 @@ Ejemplo de nota guardada:
 
 ## Arquitectura 
 ```mermaid 
-graph LR
+graph LR 
  A[Usuario] --> B[Frontend] 
  B --> C[API] 
- C --> D[(Base de datos)]
- ```
+ C --> D[(Base de datos)] 
+```
+
 
  ### Flujo para agregar una nota 
 ```mermaid 
@@ -69,3 +70,12 @@ graph TD
  B -- No --> D[Agregar a la lista] 
  D --> E[Limpiar el campo] 
 ```
+## Contribucion 
+1. Haz un fork del repositorio. 
+2. Crea una rama: `git checkout -b mejora/mi-cambio` 
+3. Guarda tus cambios: `git commit -m "Describe tu cambio"` 
+4. Sube la rama: `git push origin mejora/mi-cambio` 
+5. Abre un Pull Request explicando que mejoraste. 
+## Licencia 
+Este proyecto usa la licencia MIT. Revisa el archivo [LICENSE](LICENSE). ## Autor 
+Hecho por **Cesar Poblete** - [GitHub](https://github.com/cesarpoblete-cmd)
